@@ -49,3 +49,4 @@ ENTER
 ## Attacking
 Establish a listening endpoint on port 8080 ```nc -lvnp 8080```<br><br>
 ![nc](https://github.com/aayushdangol16/Reverse-shell-by-rubber-ducky/blob/main/nc.png)<br><br>
+Connect the Raspberry Pi to the target machine, and the Ducky script will execute automatically, providing a reverse shell on the targeted machine.
