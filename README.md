@@ -46,3 +46,5 @@ STRING ayush.bat
 ENTER
 
 ```
+## Attacking
+Establish a listening endpoint on port 8080 ```nc -lvnp 8080```
