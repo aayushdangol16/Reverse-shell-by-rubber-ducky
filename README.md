@@ -23,4 +23,4 @@ Windows reverse PowerShell payload<br>
 9. Copy `adafruit_wsgi` to the `lib` folder on your Pico.
 10. Copy `boot.py` from your clone to the root of your Pico.
 11. Copy `duckyinpython.py`, `code.py`, `webapp.py`, `wsgiserver.py` to the root folder of the Pico.
-    
+## Setting up an attacker server and a Ducky script
