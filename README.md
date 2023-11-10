@@ -25,7 +25,7 @@ Generate windows reverse PowerShell payload<br>
 11. Copy `duckyinpython.py`, `code.py`, `webapp.py`, `wsgiserver.py` to the root folder of the Pico.
 ## Setting up an attacker server and a Ducky script
 Upload the Windows reverse PowerShell payload (ayush.bat) to your server; in my case, I have uploaded it to GitHub.<br><br>
-Create Ducky script
+Create Ducky script and save as ```payload.dd``` on root folder of pico.
 ```
 DELAY 3000
 GUI r
