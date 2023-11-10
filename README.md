@@ -47,4 +47,5 @@ ENTER
 
 ```
 ## Attacking
-Establish a listening endpoint on port 8080 ```nc -lvnp 8080```
+Establish a listening endpoint on port 8080 ```nc -lvnp 8080```<br><br>
+![nc](https://github.com/aayushdangol16/Reverse-shell-by-rubber-ducky/blob/main/nc.png)<br><br>
